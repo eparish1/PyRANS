@@ -1,6 +1,8 @@
 from pylab import *
-from libraries2d import d_dx
-from libraries2d import d_dy 
+#from libraries2d import d_dx
+#from libraries2d import d_dy 
+from importModule2d import d_dx
+from importModule2d import d_dy
 def centralFlux(rho,rhoU,rhoV,rhoE,grid,p,a):
         ## compute contrivariant velocities
         nx,ny = shape(rho)
